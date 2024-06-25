@@ -1,0 +1,203 @@
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    /* Set background image */
+    background-image: url('background.png');
+    
+    /* Set background size to cover the entire header */
+    background-size: cover;
+
+    /* Set background position to center */
+    background-position: center;
+
+    /* Set text color to white */
+    color: #242121;
+
+    /* Add padding to top and bottom */
+    padding: 20px 0;
+
+    /* Center align text */
+    text-align: center;
+}
+
+/* Title styles */
+.header-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f5eeee;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #277891;
+}
+
+
+/* Main content styles */
+main {
+    /* Add padding */
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    background-color: #f6f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Heading styles */
+section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+section p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* List styles */
+section ul {
+    margin-top: 30px;
+}
+
+section ul li {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Contact section styles */
+#contact {
+    /* Align text to left */
+    text-align: left;
+}
+
+#contact img {
+    /* Add border radius to make the image rounded */
+    border-radius: 50%;
+    
+    /* Add margin at the top to create space between the image and other elements */
+    margin-top: 20px;
+    
+    /* Add box shadow to create a depth effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Form styles */
+form {
+    /* Add margin at the top */
+    margin-top: 20px;
+
+    /* Set maximum width */
+    max-width: 300px;
+
+    /* Align text to left */
+    text-align: left;
+}
+
+
+form label {
+    /* Display labels as inline block */
+    display: inline-block;
+
+    /* Add margin at the bottom */
+    margin-bottom: 5px;
+
+    /* Set label color */
+    color: #2c1010;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    /* Set input width to 100% */
+    width: 100%;
+
+    /* Add padding */
+    padding: 10px;
+
+    /* Add margin at the bottom */
+    margin-bottom: 15px;
+
+    /* Add border */
+    border: 1px solid #363232;
+
+    /* Add border radius for rounded corners */
+    border-radius: 5px;
+}
+
+form textarea {
+    /* Set textarea height */
+    height: 100px;
+}
+
+form button {
+    /* Set background color */
+    background-color: #131212;
+
+    /* Set text color */
+    color: #fff;
+
+    /* Add padding */
+    padding: 10px 20px;
+
+    /* Remove border */
+    border: none;
+
+    /* Add border radius for rounded button */
+    border-radius: 5px;
+
+    /* Change cursor to pointer on hover */
+    cursor: pointer;
+
+    /* Smooth background color transition on hover */
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    /* Change background color on hover */
+    background-color: #555;
+}
+
+
+/*Resources used for this task
+    
+    https://www.youtube.com/
+        https://www.google.com/
+        https://stackoverflow.com/questions/ */
